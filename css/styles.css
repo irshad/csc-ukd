@@ -1,0 +1,140 @@
+body {
+    background-color: whitesmoke;
+}
+
+.title-name {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    color: #454545;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    color: #454545;
+}
+
+.btn-apt {
+    margin-top: 50px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-apt:hover {
+    background-color: #f46d68;
+    outline: none;
+    border: 1px solid #f46d68;
+}
+
+span {
+    color: #454545;
+}
+
+a {
+    /* text-decoration: none; */
+    color: #454545;
+}
+
+a:hover{
+    color: #f46d68;
+}
+
+/* cards */
+.contact-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    flex: 1;
+    max-width: 250px;
+    height: 120px;
+    background-color: #343a40;
+    margin: 30px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.icon{
+    font-size: 32px;
+    color: #f46d68;
+    transition: .3s linear;
+}
+
+.card:hover .icon{
+    transform: scale(4);
+    opacity: 0;
+}
+
+.card-content span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    opacity: 0;
+}
+
+.card-content h3{
+    top: 20px;
+    text-transform: uppercase;
+    color: #f46d68;
+}
+
+.card-content span{
+    bottom: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.card:hover h3{
+    opacity: 1;
+    top: 46px;
+    transition: .3s linear .3s;
+}
+
+.card:hover span{
+    opacity: 1;
+    bottom: 46px;
+    transition: .3s linear .3s;
+}
+
+
+/* media quries */
+@media screen and (max-width:900px){
+    .card{
+        flex: 100%;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title-name {
+        margin-top: 70px;
+        font-size: 25px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .btn-apt {
+        margin-top: 30px;
+    }
+
+    span {
+        color: #0064a7;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+}

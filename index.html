@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CSC-UKD</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="title-name">WELCOME TO</h1>
+        <h1 class="title">CSC SISHU AADHAAR <span>URAVAKONDA</span></h1>
+
+        <p class="text-center">
+            <button class="btn btn-dark btn-block btn-apt" data-toggle="modal" data-target="#staticBackdrop">
+                BOOK YOUR APPOINTMENT
+            </button>
+        </p>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Fill The Form</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <div class="mb-3">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1" required>
+                                </div>
+                                <label class="form-label">Phone Number</label>
+                                <input type="number" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                                <div id="emailHelp" class="form-text pt-2">We'll never share your Number with anyone
+                                    else.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-info" onclick="emailButton()">
+            <div class="card">
+                <i class="icon fas fa-envelope"></i>
+                <div class="card-content">
+                    <span>email@address.com</span>
+                </div>
+            </div>
+
+            <div class="card" onclick="phoneButton()">
+                <i class="icon fas fa-phone"></i>
+                <div class="card-content">
+                    <span>+00000000000</span>
+                </div>
+            </div>
+
+            <div class="card" onclick="mapButton()">
+                <i class="icon fas fa-map-marker-alt"></i>
+                <div class="card-content">
+                    <span>Uravakonda</span>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-4">
+        <div class="text-center">
+            <p class="mb-1">Copyright &copy 2020 Kotha Sharth</p>
+            <p>Design & Developed by <a href="https://irshadali.codes"><b>Irshad Ali</b></a> | <a href="https://github.com/irshad/csc-ukd">Open Source At GitHub</a></p>
+        </div>
+    </div>
+
+    <!-- <footer class="footer container">
+        <nav class="navbar fixed-bottom navbar-info bg-info">
+            <div class="container">
+                <span class="copy"> Copyright @ 2020 </span><a class="navbar-brand" href="#">Kotha Sharath</a>
+            </div>
+        </nav>
+    </footer> -->
+
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
