@@ -117,16 +117,16 @@ a:hover{
 
 @media only screen and (max-width: 600px) {
     .title-name {
-        margin-top: 70px;
+        margin-top: 55px;
         font-size: 25px;
     }
 
     .title {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .btn-apt {
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     span {
