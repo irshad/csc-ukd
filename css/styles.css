@@ -21,12 +21,6 @@ body {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.btn-apt:hover {
-    background-color: #f46d68;
-    outline: none;
-    border: 1px solid #f46d68;
-}
-
 span {
     color: #454545;
 }
