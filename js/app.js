@@ -1,11 +1,11 @@
 const emailButton = () => {
-    window.open("");
+    window.open("mailto:atpcsc.in@gmail.com");
 }
 
 const phoneButton = () => {
-    window.open("");
+    window.open("tel:7780660480");
 }
 
 const mapButton = () => {
-    window.open("");
+    window.open("https://goo.gl/maps/PPLybXtwNmyRBnfG8");
 }
