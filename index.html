@@ -38,6 +38,11 @@
                <i class="far fa-calendar-check"></i> &nbsp; BOOK YOUR APPOINTMENT
             </button>
         </p>
+
+        <div class="mt-2">
+            <p class="text-center note-txt"> <span class="text-danger">Note:</span> Appointment slot opens at 08.00AM for next day.online appointments <br> ఒక రోజు ముందుగా బుక్ చేసుకోవలెను,రేపటి అప్పోయింట్మెంట్ కొరకు ఇవ్వాళ్ళ ఉదయం 8 గంటలకి బుకింగ్ ఓపెన్ అవుతుంది</p>
+        </div>
+
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -53,10 +58,16 @@
                         <form netlify method="POST" data-netlify="true">
                             <div class="mb-3">
                                 <div class="mb-3">
-                                    <label class="form-label">Name</label>
+                                    <label class="form-label">Name <span class="text-danger">*</span></label>
                                     <input type="text" name="Name" class="form-control" id="exampleInputPassword1" required>
                                 </div>
-                                <label class="form-label">Phone Number</label>
+                                <div class="mb-3">
+                                    <label class="form-label">Aadhaar Number <span class="text-danger">*</span></label>
+                                    <input type="number" name="Name" class="form-control" id="exampleInputPassword1"
+                                    pattern = "[0-9]"
+                                    min="12" max="12" required>
+                                </div>
+                                <label class="form-label">Phone Number <span class="text-danger">*</span></label>
                                 <input type="tel" name="Number" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp" required>
                                 <div id="emailHelp" class="form-text pt-2">We'll never share your Number with anyone

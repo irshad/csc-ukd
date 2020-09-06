@@ -15,6 +15,11 @@ body {
     color: #f46d68;
 }
 
+.note-txt {
+    font-size: 26px;
+    font-weight: 500;
+}
+
 .btn-apt {
     margin-top: 50px;
     border-radius: 6px;
@@ -137,6 +142,11 @@ a:hover{
     .card {
         margin: 10px;
         border-radius: 15px;
+    }
+
+    .note-txt {
+        font-size: 18px;
+        font-weight: 500;
     }
 
 }
