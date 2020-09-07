@@ -12,7 +12,7 @@ body {
 .title {
     font-size: 60px;
     text-align: center;
-    color: #f46d68;
+    color: #6559d1;
 }
 
 .note-txt {
@@ -32,7 +32,7 @@ a {
 }
 
 a:hover{
-    color: #f46d68;
+    color: #6559d1;
 }
 
 /* cards */
@@ -60,7 +60,7 @@ a:hover{
 
 .icon{
     font-size: 32px;
-    color: #f46d68;
+    /* color: #6559d1; */
     transition: .3s linear;
 }
 
@@ -80,7 +80,7 @@ a:hover{
 .card-content h3{
     top: 20px;
     text-transform: uppercase;
-    color: #f46d68;
+    color: #6559d1;
 }
 
 .card-content span{
@@ -103,7 +103,7 @@ a:hover{
 
 .name-own {
     font-weight: bold;
-    color: #f46d68;
+    color: #6559d1;
 }
 
 .name-own:hover {
