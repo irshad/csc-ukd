@@ -63,11 +63,13 @@
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Aadhaar Number <span class="text-danger"><b>*</b></span></label>
-                                    <input type="Number" name="Number" class="form-control" id="exampleInputPassword1" maxlength="12" required>
+                                    <input type="Number" name="Number" class="form-control" id="exampleInputPassword1" maxlength="12" required
+                                           oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                                 </div>
                                 <label class="form-label">Phone Number <span class="text-danger"><b>*</b></span></label>
                                 <input type="Number" name="Number" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" maxlength="10" required>
+                                    aria-describedby="emailHelp" maxlength="10" required
+                                       oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                                 <div id="emailHelp" class="form-text pt-2">We'll never share your Number with anyone
                                     else.
                                 </div>
